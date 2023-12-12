@@ -1,0 +1,16 @@
+.products{
+display: flex;
+flex-direction: column;
+}
+
+
+.main-title{
+    font-size: 32px;
+    margin-top: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+   
+}
+
+

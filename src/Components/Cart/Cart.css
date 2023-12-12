@@ -1,0 +1,51 @@
+.bag-sidebar {
+  position: fixed;
+  top: 0;
+  left: -200px;
+  width: 400px;
+  height: 100vh;
+  background-color: var(--white);
+  padding: 20px;
+  z-index: 9999;
+  overflow-y: auto;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.bag-sidebar.active {
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+.bag-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-icon {
+  cursor: pointer;
+}
+
+.bag-wrapper {
+  margin-right: 10px;
+}
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  margin: 20px 10px;
+}
+
+.price {
+  margin-top: 15px;
+}
+
+.no-show {
+  visibility: hidden;
+}
